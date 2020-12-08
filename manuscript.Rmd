@@ -1,0 +1,27 @@
+---
+title: "A systematic investigation of affective signaling theory"
+author: "Miklos Bognar"
+date: '2020-12-08'
+output:
+  html_document: default
+link-citations: true
+bibliography: ref.bib
+biblio-style: apalike
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Introduction
+From the moment of waking up in the morning to falling asleep at night we manage to successfully execute countless little actions one-by-one or sometimes simultaneously. Most of the time we do not even need to pay attention to these little behaviours, we do them automatically - tying shoelaces, closing the door, driving a car. Sometimes, however we should not let our ‘autopilot’ drive, we have to take control of our behaviour to achieve certain goals. Tying someone else’s shoelaces, closing new doors, or driving in a blizzard are actions we have to do differently from our old automatic behaviours. This ability to change from automatic to controlled behaviour is called ‘cognitive control’. Cognitive control is responsible for not only the detection of incompatible automatic behaviour, but for the planning and also for the execution of controlled behaviour [@cohen2017cognitive].
+
+A fundamental point in defining cognitive control is the distinction between automatic and controlled behaviours. According to Schneider & Shiffrin [@schneider1977controlled] controlled processes are slower to execute than automatic processes, because they are interfered by automatic processes.This mechanism is well illustrated by the Stroop-task [@stroop1935studies], where participants are told to define the font colour of appearing colour words. In conflicting (incongruent) stimuli (e.g. the word ‘BLUE’ in red font color) mean reaction time is slower and accuracy is lower than in congruent (non-conflicting) stimuli - this phenomenon is referred to as Stroop-effect. In this case word reading is an automatic process, whereas colour naming is a controlled process - hence the performance drop on incongruent trials. An other phenomenon regarding Stroop-like stimulus response compatibility (SRC) tests is the Gratton-effect [@gratton1992optimizing], or congruency sequence effect (CSE). According to this, current trial performance is not only modulated by the current trial congruency, but also the previous trial congruency. If a previous incongruent trial is followed by a current congruent trial the Stroop-effect on current trial decreases which leads to better performance [@egner2008multiple].
+
+A prominent explanation of Gratton-effect is conflict monitoring theory, which claims that the *dorsal anterior cingulate cortex* (dACC) uses a conflict monitoring apparatus to detect conflicting stimuli (e.g. an incongruent Stroop-trial). The detection of conflict then elicits adaptation of conflict in the *dorsolateral prefrontal cortex* (dlPFC) which increases control on task specific stimuli [@botvinick2001conflict]. Neuroimaging studies also imply that increased monitoring of conflict in the previous trial is accompanied by an increased magnitude of congruency sequence effect [@dignath2020conflict]. Congruency sequence effect is also predicted by the conflict-related dAAC activity in the preceding trial [@kerns2004anterior].
+
+In the last decade a new approach of explaining conflict adaptation has arised: Dignath and collagues [@dignath2020conflict] have named it as 'affective-signaling hypothesis' in their integrative review. Affective-signaling hypothesis claims that conflict adaptation is not a cognitively controlled monitoring mechanism, but a process based on affect. They claim that conflict induces negative affect which then drives conflict adaptation.
+This hypothesis is originated from neuroumaging studies that show the role of dACC not only in conflict and error processing, but also emotional processing of (mostly) negative affects [@kober2008functional]. Lesions in dACC can also cause decreased recognition of negative emotions [@tolomeo2016causal]. These findings show a possibility for shared neuronal processing of conflict and negative affect.
+
+
+
+# References
