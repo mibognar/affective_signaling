@@ -4,7 +4,7 @@ author: "Miklos Bognar"
 date: '2020-12-08'
 output:
   html_document: default
-link-citations: true
+link-citations: yes
 bibliography: ref.bib
 biblio-style: apalike
 ---
@@ -22,6 +22,9 @@ A prominent explanation of Gratton-effect is conflict monitoring theory, which c
 In the last decade a new approach of explaining conflict adaptation has arised: Dignath and collagues [@dignath2020conflict] have named it as 'affective-signaling hypothesis' in their integrative review. Affective-signaling hypothesis claims that conflict adaptation is not a cognitively controlled monitoring mechanism, but a process based on affect. They claim that conflict induces negative affect which then drives conflict adaptation.
 This hypothesis is originated from neuroumaging studies that show the role of dACC not only in conflict and error processing, but also emotional processing of (mostly) negative affects [@kober2008functional]. Lesions in dACC can also cause decreased recognition of negative emotions [@tolomeo2016causal]. These findings show a possibility for shared neuronal processing of conflict and negative affect.
 
+Dignath and collagues have defined 3 main links between affect and control mechanisms: A conflict-affect link, an affect-monitoring link, and an affect-control link. As the experimental studying of the first two links' is mostly limited to neuroimaging investigations, we will observe the affect-control link's measureability. In their review they listed  several studies where tonic affect stimulus modulated control: In these studies negative mood states increased congruency sequence effect, and positive mood decreased it. These tonic affect manipulations were by videos [@schuch2015mood], music [@van2010mood], or screen colours [@xue2013positive].
+Phasic affect modulation however showed ambiguous results: @steenbergen2009reward have found incresed CSE after reward signals relative to penalty signals while @zeng2017enhanced found no difference between the CSE modulation of pleasant and unpleasant stimuli. In this study however sequential congruency effect was increased by high arousal.
+We decided to look into the possibility of experimentally investigating the phasic affect modulation of control. We planned a systematic array of experiments with various affective stimuli on several modalities and affective norms (valence/arousal). Our starting point was the concept that conflict itself elicits negative affect, and then this negative affect modulates control. Following this theory we hypothesize that affect without conflict can also modulate control. The following design aims to investigate this hypothesis.  
 
 
 # References
